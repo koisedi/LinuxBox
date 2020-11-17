@@ -1,3 +1,4 @@
+
 # Harjoitus 3 
  
 Aloitaan tehtävän tekeminen tekemällä Githubiin uuden repon. Kloonataan uusi repo "git o$
@@ -16,5 +17,8 @@ Git Diff: Komento kertoo mitä muutoksia on tehty, mikä on paikallisen hakemist
 
 Git Blame: Komento kertoo kuka on tehnyt muutokset mihinkin tiedostoon. 
 
+# C) Tyhmä muutos
 
+Muokkasin harjoitus3.md tiedostoa ja lisäsin siihen muutoksen. Tämän jälkeen se tallenttaan 
+ja löydään git reset --hard komento, joka palauttaa muutokset viimeisimpään kohtaan.
 
