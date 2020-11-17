@@ -3,5 +3,6 @@ Syötetään myös käyttäjätiedot, jotta systeemi toimisi oikein. Git config 
 git config --global user.name"
 git config --global credential.helper "cache--timeout=3600"
 
+x
 hmhm mhm
 
