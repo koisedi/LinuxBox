@@ -15,10 +15,18 @@ Git log: Komento näyttää repoon tehdyt muutokset ja commitit. Näistä näkyy
 
 Git Diff: Komento kertoo mitä muutoksia on tehty, mikä on paikallisen hakemiston ja reposition ero. Kyseisessä tapauksessa loin muutoksen Readme tiedostoon. 
 
-Git Blame: Komento kertoo kuka on tehnyt muutokset mihinkin tiedostoon. 
+Git Blame: Komento kertoo kuka on tehnyt muutokset mihinkin tiedostoon ja kellonajan. 
 
 # C) Tyhmä muutos
 
 Muokkasin harjoitus3.md tiedostoa ja lisäsin siihen muutoksen. Tämän jälkeen se tallenttaan 
 ja löydään git reset --hard komento, joka palauttaa muutokset viimeisimpään kohtaan.
 
+# D) Tee uusi Salt-moduuli
+
+Tehdään uusi moduuli. Aion tällä kertaa asentaa Gimp-kuvankäsittelyohjelman. 
+Siirrytään Cd /srv/salt/ kansioon ja luodaan Mkdir gimp-kansio. Kyseisen kansion sisään laitetaan init.sls tiedosto johon laitetaan tarvittavat ohjeistukset saltille. Sitten helloworld pohja txt. 
+Gimp:
+  pkg.installed
+Ajetaan komento läpi sudo salt '*' state.apply gimp. Toiminto onnistui. Ajetaan komento
+vielä uudestaan. Toimii. 
